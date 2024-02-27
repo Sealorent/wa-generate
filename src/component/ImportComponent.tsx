@@ -53,7 +53,7 @@ function ImportComponent() {
                 <tbody>
                     {tableData.map((row, rowIndex) => (
                         <tr key={rowIndex}>
-                            {Object.entries(row).map(([key, value], cellIndex) => (
+                            {Object.entries(row).map(([value], cellIndex) => (
                                 <td key={cellIndex} style={{ border: '1px solid black', padding: '8px' }}>{value}</td>
                             ))}
                             <td style={{ border: '1px solid black', padding: '8px' }}>
